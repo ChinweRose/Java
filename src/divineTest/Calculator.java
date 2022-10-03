@@ -7,4 +7,8 @@ public class Calculator {
         return sum;
     }
 
+    public int subtractThreeNumbers(int firstNumber, int secondNumber, int thirdNumber){
+        return firstNumber - secondNumber - thirdNumber;
+    }
+
 }

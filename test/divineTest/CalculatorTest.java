@@ -18,4 +18,11 @@ public class CalculatorTest {
         int result = calculator.addTwoNumbers(2,4);
         Assertions.assertEquals(result, 8);
     }
+
+    @Test
+    public void test_subtractThreeNumbers(){
+        int result = calculator.subtractThreeNumbers(9,7,6);
+        Assertions.assertEquals(result, -4);
+    }
 }
+

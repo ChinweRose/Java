@@ -24,5 +24,13 @@ public class CalculatorTest {
         int result = calculator.subtractThreeNumbers(9,7,6);
         Assertions.assertEquals(result, -4);
     }
+
+    @Test
+    public void test_divideTwoNumbers(){
+        int result = calculator.divideTwoNumbers(10 , 5);
+        Assertions.assertEquals(result, 2);
+    }
+
+
 }
 

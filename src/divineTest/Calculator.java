@@ -15,4 +15,8 @@ public class Calculator {
         return firstNumber / secondNumber;
     }
 
+    public int multiplyThreeNumbers(int firstNumber, int secondNumber, int thirdNumber){
+        return firstNumber * secondNumber * thirdNumber;
+    }
+
 }

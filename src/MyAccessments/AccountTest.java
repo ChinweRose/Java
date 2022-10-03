@@ -11,7 +11,6 @@ public class AccountTest {
         Account big = new Account();
 
         System.out.println("Enter initial name"+ big.getName());
-        System.out.println("Wow! I can not believe I pushed to git");
     }
 
 }

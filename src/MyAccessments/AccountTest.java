@@ -10,7 +10,10 @@ public class AccountTest {
 
         Account big = new Account();
 
-        System.out.println("Enter initial name"+ big.getName());
+        System.out.println("Enter initial name: "+ big.getName());
+
+        System.out.println("Enter your name: ");
+        String theName = input.next();
     }
 
 }

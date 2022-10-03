@@ -14,10 +14,10 @@ public class Access2 {
         int number2 = input.nextInt();
 
         System.out.println(Math.max(number1, number2));
+    }
 
-
-
-
+    public int checkMaximumOfTwoNumbers(int firstNumber, int secondNumber) {
+        return Math.max(firstNumber, secondNumber);
+    }
 
     }
-}

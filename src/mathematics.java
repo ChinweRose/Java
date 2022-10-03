@@ -6,4 +6,8 @@ public class mathematics {
 
         System.out.println(Math.sqrt(a + b + c));
     }
+
+    public double findSqaureRoot( int a , int b , int c){
+        return Math.sqrt(a + b + c);
+    }
 }

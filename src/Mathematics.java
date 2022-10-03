@@ -1,4 +1,4 @@
-public class mathematics {
+public class Mathematics {
     public static void main(String[] args){
         double a = 20.0;
         double b = 30.0;
